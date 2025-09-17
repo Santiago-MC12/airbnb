@@ -1,0 +1,29 @@
+# Dependencias / builds
+node_modules/
+dist/
+build/
+coverage/
+.vite/
+*.tsbuildinfo
+
+# Entorno / secretos
+.env
+*.env
+backend/.env
+frontend/.env
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-error.log*
+
+# IDE / SO
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Replit / cachés locales
+.replit
+.local/
